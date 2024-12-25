@@ -1,10 +1,10 @@
-name: Run Selenium Tests with Maven and send an email
+name: Run Selenium Tests with Maven
 
 on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]
+    branches: [master ]
 
 jobs:
   selenium-tests:
@@ -42,11 +42,54 @@ jobs:
 
     - name: Send Summary Report via Email
       run: |
-        sudo apt-get install -y mutt  # Install mutt for email sending
-        echo "Selenium Test Report attached." | mutt -s "Selenium Test Summary Report" -a Reports/SummaryReport.html -- ${{ secrets.RECIPIENT_EMAIL }}
+        python3 -m pip install --upgrade pip  # Ensure pip is installed/upgraded
+        python3 -m pip install secure-smtplib  # Ensure secure-smtplib is installed
+        python3 -c '
+            import smtplib
+            from email.mime.multipart import MIMEMultipart
+            from email.mime.text import MIMEText
+            from email.mime.base import MIMEBase
+            from email import encoders
+
+            # Email configuration
+            sender_email = "${{ secrets.SMTP_USERNAME }}"
+            receiver_email = "${{ secrets.RECIPIENT_EMAIL }}"
+            smtp_server = "${{ secrets.SMTP_SERVER }}"
+            smtp_port = "${{ secrets.SMTP_PORT }}"
+            smtp_password = "${{ secrets.SMTP_PASSWORD }}"
+
+            # Create message container
+            msg = MIMEMultipart()
+            msg["From"] = sender_email
+            msg["To"] = receiver_email
+            msg["Subject"] = "Selenium Test Summary Report"
+            # Attach the body with the email
+            body = "Selenium Test Report attached."
+            msg.attach(MIMEText(body, "plain"))
+
+            # Attach the report file
+            filename = "Reports/SummaryReport.html"
+            attachment = open(filename, "rb")
+
+            part = MIMEBase("application", "octet-stream")
+            part.set_payload(attachment.read())
+            encoders.encode_base64(part)
+            part.add_header("Content-Disposition", f"attachment; filename={filename}")
+            msg.attach(part)
+
+            # Connect to the server and send the email
+            server = smtplib.SMTP(smtp_server, smtp_port)
+            server.starttls()
+            server.login(sender_email, smtp_password)
+            text = msg.as_string()
+            server.sendmail(sender_email, receiver_email, text)
+            server.quit()
+            '
+
+        
       env:
         SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
         SMTP_PORT: ${{ secrets.SMTP_PORT }}
         SMTP_USERNAME: ${{ secrets.SMTP_USERNAME }}
         SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-
+        RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
