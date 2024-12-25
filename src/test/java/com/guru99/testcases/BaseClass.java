@@ -28,6 +28,7 @@ public class BaseClass {
 		context.setAttribute("driver", driver);
 		driver.get(url);
 		driver.manage().window().maximize();
+		//Base Test
 	}
 	
 	
