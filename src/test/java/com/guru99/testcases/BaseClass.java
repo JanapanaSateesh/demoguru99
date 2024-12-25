@@ -4,6 +4,7 @@ import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.ITestContext;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
@@ -24,7 +25,10 @@ public class BaseClass {
 		readconfigfiledata=new ReadConfigFile();
 		String url=readconfigfiledata.getUrl();
 		
-		driver=new ChromeDriver();
+		 ChromeOptions options = new ChromeOptions();
+	       options.addArguments("--headless");
+		
+		driver=new ChromeDriver(options);
 		context.setAttribute("driver", driver);
 		driver.get(url);
 		driver.manage().window().maximize();
