@@ -9,7 +9,6 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.guru99.testcases.Guru99LoginPageTest"/>
-      <class name="com.guru99.testcases.Guru99LoginPageTest2"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
