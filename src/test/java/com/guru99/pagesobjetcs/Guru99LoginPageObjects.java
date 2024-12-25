@@ -87,7 +87,7 @@ public class Guru99LoginPageObjects {
 			test.log(Status.PASS, "enter uername");
 			enterPassword(pwd);
 			test.log(Status.PASS, "enter password");
-			logibutton1.click();
+			logibutton.click();
 			test.log(Status.PASS, "clicked on login button");
 		}
 		catch (Exception e) {
