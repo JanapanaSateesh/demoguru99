@@ -1,4 +1,4 @@
-name: Run Selenium Tests with Maven
+name: Run Selenium Tests with Maven and send an email
 
 on:
   push:
@@ -41,7 +41,6 @@ jobs:
         path: Reports/SummaryReport.html
 
     - name: Send Summary Report via Email
-      if: success()  # Only runs if the previous steps were successful
       run: |
         sudo apt-get install -y mutt  # Install mutt for email sending
         echo "Selenium Test Report attached." | mutt -s "Selenium Test Summary Report" -a Reports/SummaryReport.html -- ${{ secrets.RECIPIENT_EMAIL }}
