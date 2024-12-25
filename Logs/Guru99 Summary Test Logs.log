@@ -1,0 +1,168 @@
+2024-12-25 12:56:41,678 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 12:56:43,819 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 12:56:55,472 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 12:57:09,233 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 12:57:11,313 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 12:57:11,334 [main] [ERROR] rootLogger:95:Guru99LoginPageObjects.java - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='btnLogin23']"}
+  (Session info: chrome=131.0.6778.204)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [85e709f4f52e701b3356265f3d30bac7, findElement {using=xpath, value=//input[@name='btnLogin23']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Satee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61426}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61426/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 85e709f4f52e701b3356265f3d30bac7
+2024-12-25 12:57:20,892 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 12:57:23,014 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 12:57:25,561 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 12:57:33,728 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 12:57:35,825 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 12:57:38,833 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 12:57:46,548 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 12:57:56,023 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 12:57:58,095 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 12:58:03,090 [main] [INFO ] rootLogger:66:Guru99LoginPageObjects.java - Hit enter button
+2024-12-25 13:07:54,996 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:07:57,117 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:08:01,882 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:08:08,800 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:08:11,005 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:08:11,034 [main] [ERROR] rootLogger:95:Guru99LoginPageObjects.java - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='btnLogin23']"}
+  (Session info: chrome=131.0.6778.204)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5ffeb3fc5666e786b3a63995a420aa7, findElement {using=xpath, value=//input[@name='btnLogin23']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Satee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62101}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62101/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e5ffeb3fc5666e786b3a63995a420aa7
+2024-12-25 13:08:18,436 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:08:20,527 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:08:23,473 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:08:30,398 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:08:32,501 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:08:35,359 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:08:42,606 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:08:49,095 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:08:51,192 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:08:55,066 [main] [INFO ] rootLogger:66:Guru99LoginPageObjects.java - Hit enter button
+2024-12-25 13:12:15,196 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:12:17,296 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:12:23,352 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:12:33,112 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:12:35,343 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:12:35,389 [main] [ERROR] rootLogger:95:Guru99LoginPageObjects.java - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='btnLogin23']"}
+  (Session info: chrome=131.0.6778.204)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [450de5afa9acda9c1ad06bd34d54e80e, findElement {value=//input[@name='btnLogin23'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Satee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62524}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62524/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 450de5afa9acda9c1ad06bd34d54e80e
+2024-12-25 13:12:43,094 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:12:45,194 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:12:48,264 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:12:55,961 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:12:58,080 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:13:01,076 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:13:09,277 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:13:16,376 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:13:18,469 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:13:23,077 [main] [INFO ] rootLogger:66:Guru99LoginPageObjects.java - Hit enter button
+2024-12-25 13:15:24,131 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:15:26,252 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:15:31,168 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:15:42,695 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:15:44,759 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:15:44,793 [main] [ERROR] rootLogger:95:Guru99LoginPageObjects.java - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='btnLogin23']"}
+  (Session info: chrome=131.0.6778.204)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1955eef49201ec11389d5bfddbc0a38e, findElement {value=//input[@name='btnLogin23'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Satee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62890}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62890/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1955eef49201ec11389d5bfddbc0a38e
+2024-12-25 13:15:53,494 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:15:55,659 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:15:58,842 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:16:07,471 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:16:09,585 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:16:12,614 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:16:20,191 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:16:27,457 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:16:29,539 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:16:32,652 [main] [INFO ] rootLogger:66:Guru99LoginPageObjects.java - Hit enter button
+2024-12-25 13:18:00,387 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:18:02,514 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:18:07,335 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:18:16,115 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:18:18,196 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:18:18,230 [main] [ERROR] rootLogger:95:Guru99LoginPageObjects.java - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='btnLogin23']"}
+  (Session info: chrome=131.0.6778.204)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8fb1b39b63b02580ac5c9e4a9513fb47, findElement {value=//input[@name='btnLogin23'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Satee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63305}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63305/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8fb1b39b63b02580ac5c9e4a9513fb47
+2024-12-25 13:18:25,749 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:18:27,859 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:18:30,701 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:18:37,319 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:18:39,377 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:18:43,544 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:19:01,150 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:19:15,486 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:19:17,564 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:19:21,588 [main] [INFO ] rootLogger:66:Guru99LoginPageObjects.java - Hit enter button
+2024-12-25 13:53:30,172 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:53:32,391 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:53:35,923 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:53:43,088 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:53:45,181 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:53:45,214 [main] [ERROR] rootLogger:95:Guru99LoginPageObjects.java - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='btnLogin23']"}
+  (Session info: chrome=131.0.6778.204)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1001e55f58248ee8cc4ba57ee4af90c1, findElement {value=//input[@name='btnLogin23'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Satee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64578}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64578/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1001e55f58248ee8cc4ba57ee4af90c1
+2024-12-25 13:53:59,822 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:54:01,988 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:54:06,340 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:54:18,795 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:54:21,117 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:54:24,666 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:54:34,907 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:54:44,457 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:54:46,681 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:54:54,914 [main] [INFO ] rootLogger:66:Guru99LoginPageObjects.java - Hit enter button
+2024-12-25 13:55:04,755 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:55:06,918 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:55:17,594 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:55:29,265 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:55:31,324 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:55:31,346 [main] [ERROR] rootLogger:95:Guru99LoginPageObjects.java - no such element: Unable to locate element: {"method":"xpath","selector":"//input[@name='btnLogin23']"}
+  (Session info: chrome=131.0.6778.204)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.20.0', revision: '866c76ca80'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0323221c4c31d252f398f2bce06e000e, findElement {value=//input[@name='btnLogin23'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.204, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\Satee\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65002}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65002/devtoo..., se:cdpVersion: 131.0.6778.204, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0323221c4c31d252f398f2bce06e000e
+2024-12-25 13:55:39,227 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:55:41,310 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:55:44,653 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:55:54,769 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:55:56,936 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:55:59,436 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:56:08,018 [main] [INFO ] rootLogger:60:Guru99LoginPageObjects.java - Clicked on login button
+2024-12-25 13:56:15,200 [main] [INFO ] rootLogger:42:Guru99LoginPageObjects.java - Enter username
+2024-12-25 13:56:17,285 [main] [INFO ] rootLogger:54:Guru99LoginPageObjects.java - Enter password
+2024-12-25 13:56:21,834 [main] [INFO ] rootLogger:66:Guru99LoginPageObjects.java - Hit enter button
