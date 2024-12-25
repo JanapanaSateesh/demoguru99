@@ -31,7 +31,7 @@ jobs:
       run: mvn clean install -DsuiteXmlFile=testng.xml
 
     - name: Upload test reports
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: test-reports
         path: Reports/SummaryReport.html
