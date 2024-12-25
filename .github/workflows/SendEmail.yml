@@ -1,4 +1,4 @@
-name: Run Selenium Tests with Maven
+name: Run Selenium Tests with Maven and send an email
 
 on:
   push:
