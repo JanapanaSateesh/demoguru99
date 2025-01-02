@@ -20,7 +20,7 @@ public class BaseClass {
 	
 	@BeforeMethod(alwaysRun = true)
 	public void SetUp(ITestContext context) throws IOException {
-		
+		//Base PADMA
 		
 		readconfigfiledata=new ReadConfigFile();
 		String url=readconfigfiledata.getUrl();
