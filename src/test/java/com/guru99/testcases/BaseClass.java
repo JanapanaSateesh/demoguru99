@@ -17,6 +17,7 @@ public class BaseClass {
 
 	public WebDriver driver;
 	ReadConfigFile readconfigfiledata;
+	//added comment
 	
 	@BeforeMethod(alwaysRun = true)
 	public void SetUp(ITestContext context) throws IOException {
